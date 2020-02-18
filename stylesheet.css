@@ -1,0 +1,188 @@
+@charset "utf-8";
+*{
+  margin:0px;
+  padding:0px;
+}
+header{
+  width:100%;
+  height:70px;
+  background-color:black;
+}
+header ul{
+  list-style:none;
+  color:white;
+}
+header li{
+  float:left;
+  margin-right:20px;
+  float:right;
+    margin-top:22px;
+}
+.head{
+  width:1250px;
+  text-align:center;
+}
+.main1{
+  width:100%;
+  height:640px;
+  background-color:#F2ECE1;
+}
+.title{
+  font-size:30px;
+  text-align:center;
+  margin-top:50px;
+  font-weight:bold;
+}
+.title-picture{
+  display:flex;
+  margin-left:240px;
+  margin-top:30px;
+  float:left;
+}
+.title-2{
+  font-size:30px;
+  margin-left:30px;
+  text-align:center;
+  margin-top:50px;
+  line-height:70px;
+}
+
+.matome{
+  margin-top:80px;
+}
+
+
+
+.main2{
+  width:100%;
+  height:640px;
+  background-color:white;
+ text-align:center;
+}
+
+.main2 li{
+  display:inline-block;
+}
+.main-main{
+  margin-top:60px;
+  width:100%;
+　display:inline-block;
+ vertical-align:top;
+}
+.title-in{
+  font-size:25px;
+  font-weight:bold;
+  margin-left:-100px;
+  margin-top:30px;
+}
+.description{
+  line-height:40px;
+  text-align:center;
+  margin-right:100px;
+  margin-top:40px;
+}
+.title2{
+  text-align:center;
+  font-size:25px;
+  margin-top:50px;
+  font-weight:bold;
+}
+.main-in1{
+
+  margin-bottom:102px;
+}
+.title-in2{
+  font-size:25px;
+  font-weight:bold;
+  margin-bottom:40px;
+
+}
+.img1{
+  margin:20px;
+}
+.img2{
+  margin:20px;
+}
+.img3{
+  margin:20px;
+}
+.img4{
+  margin:20px;
+  margin-left:12px;
+
+}
+.img5{
+  margin:20px;
+margin-left:33px;
+}
+.img6{
+  margin:20px;
+margin-left:33px;
+}
+.main-in2{
+  padding-top:0px;
+  margin-top:11px;
+}
+
+
+/*メイン3に進む*/
+
+.main3{
+  width:100%;
+  height:640px;
+  background-color:#F2ECE1;
+}
+.title-3{
+  text-align:center;
+  font-weight:bold;
+  font-size:25px;
+  margin-top:50px;
+}
+.pictures{
+  margin-top:90px;
+  display:flex;
+  justify-content:center;
+  justify-content:center;
+}
+.pic-1{
+  margin-right:90px;
+}
+
+.pic-3{
+  margin-left:90px;
+}
+/*メイン3に進む*/
+
+.main4{
+  width:100%;
+  height:640px;
+  background-color:white;
+}
+
+.title-4{
+  text-align:center;
+  font-weight:bold;
+  font-size:25px;
+  margin-top:50px;
+}
+
+.pictures4{
+  display:flex;
+  margin-top:90px;
+  justify-content:center;
+}
+
+
+.footer{
+  width:100%;
+  height:320px;
+  background-color:#000000;
+
+}
+.footer-name{
+  width:20%;
+  color:white;
+  float:right;
+  margin-top:60px;
+  line-height:50px;
+}
