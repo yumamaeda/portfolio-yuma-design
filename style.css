@@ -11,15 +11,16 @@ header{
 header ul{
   list-style:none;
   color:white;
+  width:100%;
 }
 header li{
   float:left;
   margin-right:20px;
   float:right;
-    margin-top:22px;
+  margin-top:22px;
 }
 .head{
-  width:1250px;
+  width:100%;
   text-align:center;
 }
 .main1{
@@ -53,9 +54,11 @@ header li{
 
 
 
+
+
 .main2{
   width:100%;
-  height:640px;
+  height:100%;
   background-color:white;
  text-align:center;
 }
@@ -72,13 +75,11 @@ header li{
 .title-in{
   font-size:25px;
   font-weight:bold;
-  margin-left:-100px;
   margin-top:30px;
 }
 .description{
   line-height:40px;
   text-align:center;
-  margin-right:100px;
   margin-top:40px;
 }
 .title2{
@@ -88,8 +89,8 @@ header li{
   font-weight:bold;
 }
 .main-in1{
-
   margin-bottom:102px;
+  margin-right:100px;
 }
 .title-in2{
   font-size:25px;
@@ -129,7 +130,7 @@ margin-left:33px;
 
 .main3{
   width:100%;
-  height:640px;
+  height:100%;
   background-color:#F2ECE1;
 }
 .title-3{
@@ -143,6 +144,7 @@ margin-left:33px;
   display:flex;
   justify-content:center;
   justify-content:center;
+  padding-bottom:50px;
 }
 .pic-1{
   margin-right:90px;
@@ -155,7 +157,7 @@ margin-left:33px;
 
 .main4{
   width:100%;
-  height:640px;
+  height:100%;
   background-color:white;
 }
 
@@ -170,6 +172,7 @@ margin-left:33px;
   display:flex;
   margin-top:90px;
   justify-content:center;
+  padding-bottom:40px;
 }
 
 
@@ -185,4 +188,71 @@ margin-left:33px;
   float:right;
   margin-top:60px;
   line-height:50px;
+}
+
+.div{
+  width:100%;
+}
+
+@media screen and (max-width:1111px) {
+.title-picture{
+  display:block;
+  float:none;
+  margin-left:0px;
+  text-align:center;
+}
+
+.main1{
+  height:100%;
+}
+
+.main-in1{
+  margin-right:0px;
+  clear:both;
+}
+
+.pictures{
+  display:block;
+  text-align:center;
+}
+
+.pic-1{
+  margin-right:0px;
+  margin-bottom:40px;
+}
+
+.pic-2{
+  margin-bottom:40px;
+}
+
+.pic-3{
+  margin-left:0px;
+
+}
+
+.pictures4{
+  display:block;
+  text-align:center;
+}
+.title-2{
+padding-bottom:40px;
+margin-left:15px;
+margin-right:15px;
+font-size:25px;
+}
+.description{
+  margin-right:15px;
+  margin-left:15px;
+}
+}
+
+
+@media screen and (max-width:461px) {
+.imgoll-1{
+  clear:both;
+}
+.imgoll-2{
+  clear:both;
+}
+
 }
